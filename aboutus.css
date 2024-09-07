@@ -1,0 +1,396 @@
+/* navigation bar, */
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    
+  }
+  
+  nav {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: relative;
+  }
+
+
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  
+  .logo img {
+    height: 70px;
+    width: auto;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar a:hover {
+    color: #000000;
+    animation: hoverAnimation 0.3s ease-in-out;
+  }
+  
+  .get-started {
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  .get-started:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  @keyframes hoverAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+
+  
+
+
+
+
+  /* hero */
+
+
+
+
+
+
+
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    background-image: url('background-image.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    animation: fadeIn 1.5s ease-out; /* Basic CSS animation */
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+/* vision  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Existing CSS */
+
+.vision-section {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.vision-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.vision-content h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.vision-content p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
+/* who we are  */
+
+
+
+
+/* Existing CSS */
+
+.who-we-are-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.who-we-are-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.who-we-are-content h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.who-we-are-content p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
+
+/* services   */
+
+
+
+/* Existing CSS */
+
+.services-section {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.service-item h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* our approach */
+
+
+
+
+
+/* Existing CSS */
+
+.approach-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.approach-content {
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeInUp 1.5s ease-out; /* Basic CSS animation */
+}
+
+.approach-content h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.approach-content p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* why choose us  */
+
+
+
+
+
+/* Existing CSS */
+
+.choose-us-section {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.choose-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.choose-us-item {
+    margin-bottom: 30px;
+}
+
+.choose-us-item h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.choose-us-item p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.closing-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.closing-content {
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeInUp 1.5s ease-out; /* Basic CSS animation */
+}
+
+.closing-content p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+*{
+    scroll-behavior: smooth;
+}
+
+/* li:hover{
+    scale: 1.2;
+} */
